@@ -68,6 +68,10 @@ public class Main {
 			nome_evento = "Partita Napoli-Udinese";
 			data_evento = LocalDate.of(2020, Month.MARCH, 19);
 			VideoEvento v7 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
+			
+			nome_evento = "Partita Levante-Barcellona";
+			data_evento = LocalDate.of(2019, Month.JULY, 20);
+			VideoEvento v8 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 		
 
 		
