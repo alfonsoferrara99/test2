@@ -1,0 +1,30 @@
+2019-12-12 16:02:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "VIDEO" already exists; SQL statement:
+CREATE TABLE VIDEO( ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY, NOME VARCHAR(30), DATA DATE, SPORT VARCHAR(30), TIPO VARCHAR(30)); [42101-199]
+2019-12-12 17:01:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTest' (63)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:03:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTest' (63)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:06:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:07:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:10:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:10:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:14:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:17:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
+2019-12-12 17:18:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLDataException: Value too long for column """NOME"" VARCHAR(30)": "'GP Monza ScrivoQualcosaPerEccedereI30CaratteriEFarFallireIlTestdsfddfsfsddsfdsffdsdfsdfsfsdfwregrev' (99)"; SQL statement:
+INSERT INTO VIDEO VALUES(NULL,?,?,?,?); [22001-199]
