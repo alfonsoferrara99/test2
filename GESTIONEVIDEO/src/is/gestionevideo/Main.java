@@ -64,6 +64,10 @@ public class Main {
 			nome_evento = "Highlights Napoli-Inter";
 			data_evento = LocalDate.of(2020, Month.JANUARY, 6);
 			VideoApprofondimento v6 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
+			
+			nome_evento = "Partita Napoli-Udinese";
+			data_evento = LocalDate.of(2020, Month.MARCH, 19);
+			VideoEvento v7 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 		
 
 		
@@ -73,6 +77,7 @@ public class Main {
 			gestionevideo.caricaVideo(v4);
 			gestionevideo.caricaVideo(v5);
 			gestionevideo.caricaVideo(v6);
+			gestionevideo.caricaVideo(v7);
 		
 			ArrayList<Video> v_ricerca = gestionevideo.ricercaVideo(Sport.CALCIO, "Inter");
 
@@ -90,6 +95,10 @@ public class Main {
 			gestionevideo.rimuoviVideo(v2);
 			gestionevideo.rimuoviVideo(v3);
 			gestionevideo.rimuoviVideo(v4);
+			gestionevideo.rimuoviVideo(v5);
+			gestionevideo.rimuoviVideo(v6);
+			gestionevideo.rimuoviVideo(v7);
+
 
 		} catch (SQLException e) {
 
